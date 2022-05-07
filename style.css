@@ -1,10 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 body {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmxduz8A.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
     background-color: #eee
-    borders #eee
+}
+* {
+    border-color:#eee
 
 }
-div class = "newspaper-container"> {
 
-
+h1 {
+      text-align: center;
+      font-family: 'Abril Fatface';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+nav {
+    border: 2px solid rgb(178, 178, 199);
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    color: rgb(178, 178, 199);
+    
+    
+} 
+
+h2 {
+    text-align: left;
+    font-family: 'Roboto Slab';
+    font-style: bold;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v23/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmY2RjRdE.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+*{
+    border-color: #eee
+}
+h5 {
+    color: red
+}
+newspaper-container
