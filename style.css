@@ -50,5 +50,14 @@ h2 {
 }
 h5 {
     color: red
+    
 }
-newspaper-container
+
+.newspaper-container {
+    width: 700px;
+    border-radius: 50px;
+    border: 2px solid #73AD21;
+    box-shadow: 10px 10px lightgrey; 
+    padding: 20px;
+
+}
