@@ -3,18 +3,16 @@ body {
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 200;
+    padding-top: 20;
+    padding-left: 25; 
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmxduz8A.woff2) format('woff2');
     unicode-range: U+1F00-1FFF;
     background-color: #eee
 }
-* {
-    border-color:#eee
-
-}
 
 h1 {
-      text-align: center;
+      text-align: Center;
       font-family: 'Abril Fatface';
       font-style: normal;
       font-weight: 400;
@@ -22,17 +20,23 @@ h1 {
       src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2) format('woff2');
       unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-nav {
-    border: 2px solid rgb(178, 178, 199);
-}
+.nav li {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    font-size: 15px;
+    padding: 20px;
+    text-align: right
+  }
+
 
 li {
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    padding: 50px;
-    color: rgb(178, 178, 199);
-    
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    color: #777;
+    border-color: 1px white;
     
 } 
 
@@ -45,19 +49,34 @@ h2 {
     src: url(https://fonts.gstatic.com/s/robotoslab/v23/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmY2RjRdE.woff2) format('woff2');
     unicode-range: U+1F00-1FFF;
 }
-*{
-    border-color: #eee
-}
+
 h5 {
     color: red
     
 }
 
 .newspaper-container {
+    
     width: 700px;
-    border-radius: 50px;
-    border: 2px solid #73AD21;
-    box-shadow: 10px 10px lightgrey; 
-    padding: 20px;
+    border-radius: 50px 20px;
+    border-color: #eee;
+    background-color: white;
+    box-shadow: #ddd; 
+    padding: 10px;
+}
+p {
+    color: black; 
+    text-align: justify;
+}
+front-page-articele.png article-one.png {
+display:inline-block
 
 }
+
+article-one.png {
+image-orientation: right;
+
+    }
+ article-two.png {
+        image-orientation: center;
+    }
